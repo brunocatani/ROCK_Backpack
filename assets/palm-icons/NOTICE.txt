@@ -1,0 +1,5 @@
+RobCo PALM outline icon atlases and native atlas/catalog helpers.
+Reused from the user's RobCo PALM checkout at commit
+4db36d3745c60bc58694a609de715904cb710ea8 (26 September 2026).
+The seven PNG sheets are embedded unchanged in ROCKBackpack.dll.
+PALM is the source of the artwork; it is not a runtime dependency.

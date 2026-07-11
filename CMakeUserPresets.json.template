@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "custom-fast",
+      "cacheVariables": {
+        "POST_BUILD_COPY_PLUGIN": true,
+        "COPY_PLUGIN_BASE_PATH": "<mod folder to deploy into>",
+        "F4VR_COMMON_FRAMEWORK_PATH": "<path to F4VR-CommonFramework>",
+        "COMMON_LIB_F4VR_PATH": "<path to CommonLibF4VR>",
+        "SPRIGGIT_CLI_PATH": "<path to Spriggit.CLI.exe>",
+        "ROCK_INCLUDE_DIR": "<path to ROCK/include>",
+        "RPSUI_INCLUDE_DIR": "<path to RPS_UI_Framework/include>"
+      },
+      "inherits": "fast",
+      "binaryDir": "${sourceDir}/build-fast"
+    }
+  ]
+}

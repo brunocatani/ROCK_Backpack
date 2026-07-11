@@ -1,0 +1,25 @@
+FormKey: 000803:ROCK_Backpack.esp
+EditorID: MilitaryBackpack02
+ObjectBounds:
+  First: -13, -19, -6
+  Second: 14, 16, 19
+Name:
+  TargetLanguage: English
+  Value: Military Backpack 2
+WorldModel:
+  Male:
+    Model:
+      File: military_backapack\military_backpack_02_go.nif
+      Data: 0x0400000000000000000000000000000000000000
+BipedBodyTemplate:
+  FirstPersonFlags:
+  - Unnamed54
+Race: 000019:Fallout4.esm
+Description:
+  TargetLanguage: English
+  Value: A compact tan standalone military backpack.
+Armatures:
+- AddonIndex: 0
+  ArmorAddon: 000802:ROCK_Backpack.esp
+Weight: 4
+Unused: 0x000000

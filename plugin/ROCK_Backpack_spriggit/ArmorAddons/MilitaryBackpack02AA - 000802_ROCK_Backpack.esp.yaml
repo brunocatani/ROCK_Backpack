@@ -1,0 +1,24 @@
+FormKey: 000802:ROCK_Backpack.esp
+EditorID: MilitaryBackpack02AA
+BodyTemplate:
+  FirstPersonFlags:
+  - Unnamed54
+Race: 000019:Fallout4.esm
+Priority:
+  Male: 0
+  Female: 0
+WeightSliderEnabled:
+  Male: False
+  Female: False
+WorldModel:
+  Male:
+    File: military_backapack\military_backpack_02.nif
+    Data: 0x0400000000000000000000000000000000000000
+  Female:
+    File: military_backapack\military_backpack_02.nif
+    Data: 0x0400000000000000000000000000000000000000
+AdditionalRaces:
+- 0EAFB6:Fallout4.esm
+- 013746:Fallout4.esm
+- 0E8D09:Fallout4.esm
+BoneData: {}

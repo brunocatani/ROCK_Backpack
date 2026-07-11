@@ -1,0 +1,15 @@
+build*/
+captures/
+CMakeUserPresets.json
+# Legacy local preview/toolchain outputs are not part of the native panel.
+view-src/
+view-preview/
+*.user
+*.suo
+*.VC.db
+*.opendb
+*.log
+.vs/
+__pycache__/
+
+

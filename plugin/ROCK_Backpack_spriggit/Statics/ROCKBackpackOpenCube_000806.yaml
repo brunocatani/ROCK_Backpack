@@ -1,0 +1,6 @@
+# Retained unmodeled record for old saves; the UI button replaces the cube.
+FormKey: 000806:ROCK_Backpack.esp
+EditorID: ROCKBackpackOpenCube
+ObjectBounds:
+  First: -1, -1, -1
+  Second: 1, 1, 1

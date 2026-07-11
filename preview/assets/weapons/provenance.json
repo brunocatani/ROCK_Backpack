@@ -1,0 +1,102 @@
+{
+  "coordinateFrame": "NIF root-local axes, meters; root pose replaced by mount pose",
+  "sourceArchive": "Fallout4 - Meshes.ba2",
+  "weapons": {
+    "10mm": {
+      "sources": [
+        {
+          "path": "10mmPistol/10mmPistol.nif",
+          "sha256": "db5b3c7cd2a80c2965daa6cb266d9e0b4f2ce48288791cb8df4528af0676c945",
+          "connection": null
+        },
+        {
+          "path": "10mmPistol/10mmGrip.nif",
+          "sha256": "a5808f79308c26aee195d9bb057439f0344837705e1dd761f3cf6bcbf2040d81",
+          "connection": "P-Grip"
+        },
+        {
+          "path": "10mmPistol/10mmMag01.nif",
+          "sha256": "e9cc69cea2aee5bb18d01f55dee1012f187d94f9b39bb22058fa3d373ad342d3",
+          "connection": "P-Mag"
+        },
+        {
+          "path": "10mmPistol/10mmPistolHeavyBarrel.nif",
+          "sha256": "da77c1742c8721b5c226e6c94d71fd378cf3c370a7c9f284ae23e77f1bc03aff",
+          "connection": "P-Barrel"
+        }
+      ],
+      "sha256": "8e96b80ef0d5d005403dd658906d09a913a424dd6b07077b9db0548a5f3e4932",
+      "meshes": 9,
+      "materials": 8
+    },
+    "hunting-rifle": {
+      "sources": [
+        {
+          "path": "HuntingRifle/HuntingRifleReceiver.nif",
+          "sha256": "6d3ecf0a88d40df98165af33f846bc32e750f5ee694e4fe1c7e29412729c3f1d",
+          "connection": null
+        },
+        {
+          "path": "HuntingRifle/HuntingRifleStock.nif",
+          "sha256": "93f16a28bccecf2ee119b9f62a7d32a7ba06c3167d52c58b9381842ecff557c8",
+          "connection": "P-Grip"
+        },
+        {
+          "path": "HuntingRifle/HuntingRifleBarrel.nif",
+          "sha256": "07505c6a9ca2f208167180e0adb64a06cb2af054eccfeb429c0e21988029dbd9",
+          "connection": "P-Barrel"
+        },
+        {
+          "path": "HuntingRifle/308SmallMag.nif",
+          "sha256": "d3ea8739ad934cef8174bdd31cb48260cef611b0cf2e184f1da760c4a714635a",
+          "connection": "P-Mag"
+        },
+        {
+          "path": "HuntingRifle/HuntingRifleIronSights.nif",
+          "sha256": "4bb15174bb0046fa1e84fea2bbadecf526fcefefea2f0ff33b12d29f98f06a4d",
+          "connection": "P-Scope"
+        }
+      ],
+      "sha256": "3ce01dad51e3bad8c18b214521291159d7295ec95c25f8fc46e4fecb542fdba3",
+      "meshes": 15,
+      "materials": 12
+    },
+    "combat-rifle": {
+      "sources": [
+        {
+          "path": "CombatShotgun/CombatRifle.nif",
+          "sha256": "2dcc556defca66e6dd0eda1975cf699c48d805a1dfb75a2859e9847d5ba84059",
+          "connection": null
+        },
+        {
+          "path": "CombatShotgun/Stock.nif",
+          "sha256": "48ff913a429652589b44bf77d2ccf7149f359db5009e078d297a1d96580b2766",
+          "connection": "P-Grip"
+        },
+        {
+          "path": "CombatShotgun/CombatRifleBarrel.nif",
+          "sha256": "bce3f28ff2856ac41a46b2ce1d6e529c45c349000aeb905d911a5ccf776a844e",
+          "connection": "P-Barrel"
+        },
+        {
+          "path": "CombatShotgun/CombatRifleMagSmall.nif",
+          "sha256": "e756333230c32068ad6214b1c129c639d3cb54eaf235ab20677a242910c4db55",
+          "connection": "P-Mag"
+        },
+        {
+          "path": "CombatShotgun/CombatRifleSightsIron.nif",
+          "sha256": "690dcc4070cfd9c99350f2225ae5bd979a280fe9c3150531dc988f5b47e0efb6",
+          "connection": "P-Scope"
+        },
+        {
+          "path": "CombatShotgun/CombatRifleSightsPin.nif",
+          "sha256": "23cf0f2320676c44aa2836c799f897cfe96131d58425a15b72984b38c59d86a4",
+          "connection": "P-FrontSight"
+        }
+      ],
+      "sha256": "564b0ae1515a2141c238353820631de055c2d25877393d70892a4c2b70858aba",
+      "meshes": 13,
+      "materials": 16
+    }
+  }
+}

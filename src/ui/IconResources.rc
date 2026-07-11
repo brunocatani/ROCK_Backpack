@@ -1,0 +1,8 @@
+#include <winres.h>
+201 RCDATA "../../assets/palm-icons/core.png"
+202 RCDATA "../../assets/palm-icons/firearms.png"
+203 RCDATA "../../assets/palm-icons/heavy-melee.png"
+204 RCDATA "../../assets/palm-icons/aid.png"
+205 RCDATA "../../assets/palm-icons/food-drink.png"
+206 RCDATA "../../assets/palm-icons/explosives-armor.png"
+207 RCDATA "../../assets/palm-icons/special-weapons.png"

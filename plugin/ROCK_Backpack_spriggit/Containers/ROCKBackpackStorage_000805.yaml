@@ -1,0 +1,8 @@
+FormKey: 000805:ROCK_Backpack.esp
+EditorID: ROCKBackpackStorage
+Name:
+  TargetLanguage: English
+  Value: Backpack contents
+ObjectBounds:
+  First: 0, 0, 0
+  Second: 0, 0, 0

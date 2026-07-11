@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "asset_id": "military_backpack_02",
+  "display_name": "Military Backpack 2",
+  "target_game": "Fallout4VR",
+  "runtime_scope": "player-owned wearable and one loose world instance",
+  "source": {
+    "workspace_path": "secondary_projects/military_backapack/models/pbr-model-2.glb",
+    "bytes": 5816748,
+    "sha256": "272b03c6a204cd3695a3d9d678eab5a45f055f3d61295b267e285f52c31e2590",
+    "vertices": 57517,
+    "triangles": 74998,
+    "donor_repository_commit": "7499c06836c542c02859fcd8fde610738585990a"
+  },
+  "plugin_contract": {
+    "owner": "ROCK_Backpack.esp",
+    "armor_form_id": "000803",
+    "armor_addon_form_id": "000802",
+    "body_slot": 54,
+    "wearable_model": "military_backapack\\military_backpack_02.nif",
+    "world_model": "military_backapack\\military_backpack_02_go.nif"
+  },
+  "nif_contract": {
+    "bs_version": 130,
+    "vertices": 57517,
+    "triangles": 74998,
+    "wearable_bone": "Chest_Rear_Skin",
+    "wearable_bounds": {
+      "minimum": [-13.134384155273438, -30.152301788330078, 79.90625],
+      "maximum": [12.954697608947754, -6.625, 113.90625]
+    },
+    "world_bounds": {
+      "minimum": [-12.954818725585938, -18.906326293945312, -5.375346660614014],
+      "maximum": [13.134238243103027, 15.093657493591309, 18.151947021484375]
+    },
+    "minimum_physics_payload_bytes": 8193,
+    "maximum_physics_payload_bytes": 262144,
+    "physics_version": "hk_2014.1.0-r1"
+  },
+  "material_contract": {
+    "type": "BGSM",
+    "version": 2,
+    "two_sided": false,
+    "environment_mapping": true,
+    "environment_map_scale": 1.0,
+    "specular_strength": 1.0,
+    "smoothness": 1.0,
+    "textures": [
+      "military_backapack/military_backpack_02_d.dds",
+      "military_backapack/military_backpack_02_n.dds",
+      "military_backapack/military_backpack_02_s.dds",
+      "",
+      "Shared/Cubemaps/MetalShineBrushedTopCube_e.dds",
+      "military_backapack/military_backpack_02_m.dds",
+      "",
+      "",
+      ""
+    ]
+  },
+  "runtime_files": [
+    "Meshes/military_backapack/military_backpack_02.nif",
+    "Meshes/military_backapack/military_backpack_02_go.nif",
+    "Materials/military_backapack/military_backpack_02.bgsm",
+    "Textures/military_backapack/military_backpack_02_d.dds",
+    "Textures/military_backapack/military_backpack_02_n.dds",
+    "Textures/military_backapack/military_backpack_02_s.dds",
+    "Textures/military_backapack/military_backpack_02_m.dds"
+  ],
+  "dds": {
+    "diffuse": {
+      "sha256": "2505ddb22d9c93219c52ce6b360942236e14f9f543ed66d3ba127be1afe26d30",
+      "format": "BC7_UNORM",
+      "dimensions": [4096, 4096],
+      "mip_levels": 13
+    },
+    "normal": {
+      "sha256": "62a2e869e6e985b199298790bcee166d5aa923367c85834ef06054200d164b35",
+      "format": "BC5_UNORM",
+      "dimensions": [4096, 4096],
+      "mip_levels": 13
+    },
+    "specular": {
+      "sha256": "6769d9683a887b1a0ea61c2d1e698d15bc7136528ed2e70c631843a4c956140a",
+      "format": "BC7_UNORM",
+      "dimensions": [4096, 4096],
+      "mip_levels": 13
+    },
+    "metalness": {
+      "sha256": "318d257c7ef9c2b41c236a19ea11af5782318e14bd694f3bc3ce3b64485ab74c",
+      "format": "BC4_UNORM",
+      "dimensions": [4096, 4096],
+      "mip_levels": 13
+    }
+  },
+  "redistribution": {
+    "license_evidence": null,
+    "release_gate": "Confirm redistribution rights for the supplied GLB before public distribution."
+  }
+}

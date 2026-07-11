@@ -1,0 +1,11 @@
+{
+  "model_source": "military_backpack_02/world.glb",
+  "texture_source": "military_backpack_02/textures/military_backpack_02_d.png",
+  "model_sha256": "F22BC2E687AB6E8E8FA889A6232E2E94B9D3E4F96CCD010D2B82A78C747040FE",
+  "texture_sha256": "487CFBFCFA659C79A668B48E0562C45746B65A7850FC6E3B8EDBF63B14DF6DEA",
+  "coordinates": "Raw glTF vertices times 69.99125 match bundled world NIF local coordinates. glTF presentation node rotation is omitted.",
+  "verified_nif_vertices": 57517,
+  "verified_nif_triangles": 74998,
+  "weapon_mounts": "Original 10mm pistol, hunting rifle and combat rifle geometry exported with nif_mcp; authored attachment frames assembled by preview/export_weapons.py. See weapons/provenance.json. Runtime clones the actual stored weapon and may have different modifications.",
+  "distribution": "Local preview asset. Original asset redistribution approval still applies."
+}
